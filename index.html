@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"  loading='fast'>  
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"  amp>  
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
@@ -15,8 +15,8 @@
     });
   });
 </script>
-        <link rel="stylesheet" href="css/Portfolio.css">
-        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/Portfolio.css" rel="preload" fetchpriority="high" as='style' onload='this.rel="stylesheet"'>
+        <link rel="stylesheet" href="css/aos.css" rel="preload" fetchpriority="high" as='style' onload='this.rel="stylesheet"'>
     <title>AmrGelno || profile</title>
 
     <style>
@@ -398,7 +398,10 @@ I have experience  creating single-page application by utililizing <span>   thir
 
 
 </body>    
-    <script src="JS/jquery-3.6.0.min.js"></script> 
+<link href="Front/JS/jquery-3.6.0.min.js" rel="preload"  fetchpriority='low'  >
+<link href="Front/JS/aos.js" rel="preload"  fetchpriority='low'  >
+ <link href="Front/JS/Portfolio.js" rel="preload"  fetchpriority='low'  >      
+    <script src="JS/jquery-3.6.0.min.js"></script>
     <script src="JS/aos.js"></script>
     <script src="JS/Portfolio.js"></script>
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> --></html>
