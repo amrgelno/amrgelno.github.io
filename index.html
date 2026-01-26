@@ -7,6 +7,8 @@
 
         <link rel="stylesheet" href="css/Portfolio.css" rel="preload" fetchpriority="high" as='style' onload='this.rel="stylesheet"'>
         <link rel="stylesheet" href="css/aos.css" rel="preload" fetchpriority="high" as='style' onload='this.rel="stylesheet"'>
+		
+		<link rel="stylesheet" href="css/swiper-bundle-min.css" rel="preload" fetchpriority="high" as='style' onload='this.rel="stylesheet"'>
     <title>AmrGelno || profile</title>
 
     <style>
@@ -221,12 +223,22 @@ I have experience  creating single-page application by utililizing <span>   thir
 <!--=========== Linkedin =============-->
                 <div class="special-heading aos-init" data-aos="fade-up" data-aos-duration="1500">
 <h1>My<span>po</span>sts</h1> </div>
- <iframe class='lazyloaded' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7380884509912829952?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
-<iframe class='lazyloaded' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7380882708010414081?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
-<iframe class='lazyloaded' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7380878904540143616?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
- <iframe class='lazyloaded' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7380877988885643264?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
- <iframe class='lazyloaded' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:share:7380876526533357568?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe> 
- <iframe class='lazyloaded' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7388978264050077696?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>   
+ <section class="swipercard_aria home_2">
+<div class="swiperpricecard col-md-12" style='overflow-x:hidden;'>
+
+     <div slides-per-view="4" class="swiper-wrapper">
+ <iframe class='lazyloaded swiper-slide' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7380884509912829952?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
+<iframe class='lazyloaded swiper-slide' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7380882708010414081?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
+<iframe class='lazyloaded swiper-slide' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7380878904540143616?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
+ <iframe class='lazyloaded swiper-slide' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7380877988885643264?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>
+ <iframe class='lazyloaded swiper-slide' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:share:7380876526533357568?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe> 
+ <iframe class='lazyloaded swiper-slide' loading='lazy' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7388978264050077696?collapsed=1" height="521" width="300" frameborder="0" allowfullscreen="" title="منشور مضمن"></iframe>   
+ 
+   </div>
+   </div>
+    </section>
+ 
+
         <!--=========== SERVICES =============-->
         
         <div class="services" id="Services">
@@ -451,7 +463,10 @@ I have experience  creating single-page application by utililizing <span>   thir
 
 
 
-</body>    
+</body>  
+
+
+ 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async=""></script>
 <link href="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" rel="preconnect"  fetchpriority='high'  crossorigin >        
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
@@ -472,5 +487,6 @@ I have experience  creating single-page application by utililizing <span>   thir
  <link href="JS/Portfolio.js" rel="preload"  fetchpriority='high'  >      
     <script src="JS/jquery-3.6.0.min.js"  async="true"></script>
     <script src="JS/aos.js"  async="true"></script>
+	  <script src="JS/main.es.js" type="module" ></script>
     <script src="JS/Portfolio.js" defer></script>
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> --></html>
